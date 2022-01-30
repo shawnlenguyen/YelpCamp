@@ -144,11 +144,11 @@ app.use((req, res, next) => {
     next();
 });
 
-app.get("/fakeUser", async (req, res) => {
-    const user = new User({ email: "moneynguyen11@gmail.com", username: "moneynguyen" });
-    const newUser = await User.register(user, "money");
-    res.send(newUser);
-});
+// app.get("/fakeUser", async (req, res) => {
+//     const user = new User({ email: "moneynguyen11@gmail.com", username: "moneynguyen" });
+//     const newUser = await User.register(user, "money");
+//     res.send(newUser);
+// });
 
 // router for campgrounds
 app.use("/campgrounds", campgroundsRoutes);
