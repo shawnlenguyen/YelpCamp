@@ -27,3 +27,4 @@ This project was made along side completing [Colt Steele's The Web Developer Boo
 * [passport-local](https://www.npmjs.com/package/passport-local)
 * [Passport](https://www.passportjs.org/)
 * [sanitize-html](https://www.npmjs.com/package/sanitize-html)
+* [Bootstrap](https://getbootstrap.com/)
